@@ -13,10 +13,14 @@ A lightweight Uptime Kuma status monitor based on ESP8266 + OLED display, featur
 - **Extreme Stability**: JSON parsing is deeply optimized for ESP8266's limited RAM (~80KB) to prevent frequent restarts.
 
 ---
+## Project Preview
+
+|<img src="images/photo-1.jpg" width="280"/>|<img src="images/photo-2.jpg" width="280"/>|<img src="images/photo-3.jpg" width="280"/>|
+|:---:|:---:|:---:|
+| Boot Animation | Uptime Kuma Monitor | Clock & Lunar Calendar |
+---
 
 ## Hardware Wiring
-
-> **Wiring diagrams**: Refer to the `images/` directory in the project root.
 
 | ESP8266 (NodeMCU/WeMos D1 mini) | 0.96" OLED (SSD1306 I2C) |
 | :------------------------------ | :------------------------- |
@@ -25,6 +29,13 @@ A lightweight Uptime Kuma status monitor based on ESP8266 + OLED display, featur
 | `D2` (GPIO4)                    | `SDA`                      |
 | `D1` (GPIO5)                    | `SCL`                      |
 
+### Wiring Diagram
+![Wiring Diagram](images/ESP8266-UptimeKuma-Monitor_wiring-diagram.jpg)
+
+### Pinout Reference
+|<img src="images/wiring-1.jpg" width="400"/>|<img src="images/wiring-2.jpg" width="400"/>|
+|:---:|:---:|
+| ESP8266 Board Pinout | OLED Display Pinout |
 ---
 
 ## Dependencies & Compilation Environment
