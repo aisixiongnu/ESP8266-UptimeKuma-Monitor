@@ -12,10 +12,14 @@
 - **极致稳定**：针对 ESP8266 极小内存（RAM ~80KB）进行深度 JSON 解析优化，拒绝频繁重启。
 
 ---
+##  项目预览
+
+|<img src="images/photo-1.jpg" width="280"/>|<img src="images/photo-2.jpg" width="280"/>|<img src="images/photo-3.jpg" width="280"/>|
+|:---:|:---:|:---:|
+| 开机动画 | Uptime Kuma 监控页 | 时间与农历页 |
+---
 
 ## 硬件接线
-
->  **接线图**：可参考项目根目录下的 `images/` 文件夹。
 
 | ESP8266 (NodeMCU/WeMos D1 mini) | 0.96寸 OLED (SSD1306 I2C) |
 | :------------------------------ | :------------------------- |
@@ -24,6 +28,13 @@
 | `D2` (GPIO4)                    | `SDA`                      |
 | `D1` (GPIO5)                    | `SCL`                      |
 
+### 逻辑连线平面图
+![接线逻辑图](images/ESP8266-UptimeKuma-Monitor_wiring-diagram.jpg)
+
+### 引脚标注对照图
+|<img src="images/wiring-1.jpg" width="400"/>|<img src="images/wiring-2.jpg" width="400"/>|
+|:---:|:---:|
+| ESP8266 开发板端引脚 | OLED 显示屏端引脚 |
 ---
 
 ## 依赖库与编译环境
