@@ -1,7 +1,20 @@
-简体中文 | [English](README_EN.md)
+<div align="center">
+
 # ESP8266 Uptime Kuma 监控器
 
-基于 ESP8266 + OLED 显示屏的轻量级 Uptime Kuma 状态监控器，支持服务状态显示、24 小时在线率，并附带动态时钟与日历、农历功能。
+简体中文 | [English](README_EN.md)
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
+[![Platform: ESP8266](https://img.shields.io/badge/Platform-ESP8266-green.svg)](https://www.espressif.com/en/products/socs/esp8266)
+[![Framework: Arduino](https://img.shields.io/badge/Framework-Arduino-00979D.svg)](https://www.arduino.cc/)
+[![Display: SSD1306 OLED](https://img.shields.io/badge/Display-SSD1306%20OLED-blueviolet.svg)](#)
+
+</div>
+
+---
+
+> **项目简介**  
+> 本仓库为基于 ESP8266 开发板与 0.96 寸 SSD1306 OLED 屏幕的开源监控/时钟终端。支持实时轮询 Uptime Kuma 监控页状态，并结合 NTP 与第三方 API 实现时钟与农历日期轮播展示。
 
 ## 功能特点
 

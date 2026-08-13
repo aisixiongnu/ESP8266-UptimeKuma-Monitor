@@ -1,8 +1,20 @@
-[简体中文](README.md) | English
+<div align="center">
 
 # ESP8266 Uptime Kuma Monitor
 
-A lightweight Uptime Kuma status monitor based on ESP8266 + OLED display, featuring service status display, 24-hour uptime rate, dynamic clock, calendar, and lunar calendar functions.
+[简体中文](README.md) | English
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
+[![Platform: ESP8266](https://img.shields.io/badge/Platform-ESP8266-green.svg)](https://www.espressif.com/en/products/socs/esp8266)
+[![Framework: Arduino](https://img.shields.io/badge/Framework-Arduino-00979D.svg)](https://www.arduino.cc/)
+[![Display: SSD1306 OLED](https://img.shields.io/badge/Display-SSD1306%20OLED-blueviolet.svg)](#)
+
+</div>
+
+---
+
+> **Project Introduction**  
+> This repository provides an open-source monitor/clock terminal based on the ESP8266 development board and a 0.96-inch SSD1306 OLED display. It supports real-time polling of Uptime Kuma status pages, and combines NTP time synchronization with a third-party API to display a rotating carousel of the current time and lunar calendar dates.
 
 ## Features
 
